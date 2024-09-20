@@ -4,7 +4,7 @@
 		<name>Aeondromach</name>
 		<description>The content for the Amireath Campaign.</description>
 		<update version="1.0.31">
-			<file name="Amireath.index" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/main/Aeondromach/Amireath.index"/>
+			<file name="Amireath.index" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/Aeondromach/Amireath.index"/>
 		</update>
 	</info>
 	<files>
