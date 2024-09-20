@@ -13,7 +13,7 @@
 		<file name="feats.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/main/Aeondromach/Amireath/feats.xml"/>
 
 		<file name="TimeDomain.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/main/Aeondromach/Amireath/Subclasses/TimeDomain.xml"/>
-		<file name="CircleOfDeath.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/main/Aeondromach/Amireath/Subclasses/CircleOfDeath.xml">
+		<file name="CircleOfDeath.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/main/Aeondromach/Amireath/Subclasses/CircleOfDeath.xml"/>
 
 		<file name="FirianElf.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/main/Aeondromach/Amireath/Races/FirianElf.xml"/>
 		<file name="Kitsune.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/main/Aeondromach/Amireath/Races/Kitsune.xml"/>
