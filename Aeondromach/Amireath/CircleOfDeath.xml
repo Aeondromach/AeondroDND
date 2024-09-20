@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="CircleOfDeath.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Subclasses/CircleOfDeath.xml" />
+		</update>
+	</info>
+
+	<element name="Circle of Rot" type="Archetype" source="Aeondromach" id="ARCHETYPE_CIRCLEOFDEATH">
+		<supports>Druid Circle</supports>
+		<description>
+			<p>The Circle of Rot is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle’s wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by Rot where you were initiated into the circle’s mysterious rites.</p>
+			<div element="ARCHETYPE_FEATURE_CIRCLE_DEATH_BONUS_CANTRIP" />
+			<div element="ARCHETYPE_FEATURE_CIRCLE_DEATH_UNDEAD_WILDSHAPE" />
+			<div element="ARCHETYPE_FEATURE_CIRCLE_DEATH_CIRCLE_SPELLS" />
+			<div element="ARCHETYPE_FEATURE_CIRCLE_DEATH_SUMMON_UNDEAD" />
+			<div element="ARCHETYPE_FEATURE_CIRCLE_DEATH_RITUAL_OF_ROT" />
+			<div element="ARCHETYPE_FEATURE_CIRCLE_DEATH_CYCLE_OF_LIFE" />
+		</description>
+		<sheet display="false">
+			<description>The Circle of Rot is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ARCHETYPE_FEATURE_CIRCLE_DEATH_BONUS_CANTRIP" level="2" />
+			<grant type="Archetype Feature" id="ARCHETYPE_FEATURE_CIRCLE_DEATH_UNDEAD_WILDSHAPE" level="2" />
+			<grant type="Archetype Feature" id="ARCHETYPE_FEATURE_CIRCLE_DEATH_CIRCLE_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ARCHETYPE_FEATURE_CIRCLE_DEATH_SUMMON_UNDEAD" level="6" />
+			<grant type="Archetype Feature" id="ARCHETYPE_FEATURE_CIRCLE_DEATH_RITUAL_OF_ROT" level="10" />
+			<grant type="Archetype Feature" id="ARCHETYPE_FEATURE_CIRCLE_DEATH_CYCLE_OF_LIFE" level="14" />
+		</rules>
+	</element>
+	<element name="Bonus Necromancy Cantrip" type="Archetype Feature" source="Aeondromach" id="ARCHETYPE_FEATURE_CIRCLE_DEATH_BONUS_CANTRIP">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_CIRCLE_DEATH_BONUS_CANTRIP</requirements>
+		<description>
+			<p>When you choose this circle at 2nd level, you learn one additional Necromancy cantrip of your choice. This cantrip doesn’t count against the number of druid cantrips you know, The cantrip is considered a druid spell for you.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Spell" name="Bonus Cantrip (Druid)" supports="0,Druid" spellcasting="Druid" school="Necromancy" />
+		</rules>
+	</element>
+	<element name="Natural Recovery" type="Archetype Feature" source="Aeondromach" id="ARCHETYPE_FEATURE_CIRCLE_DEATH_UNDEAD_WILDSHAPE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_CIRCLE_DEATH_UNDEAD_WILDSHAPE</requirements>
+		<description>
+			<p>When you use your Wild Shape feature, you can cause the beast form to take on an undead appearance. For example, your beast form might have rotting flesh like a zombie, translucent flesh like a ghost, or have no flesh at all like a skeleton. When you activate your Wild Shape in this way, you take on some of the traits of the undead and gain resistance to poison damage.
+
+				Starting at 6th level, your Undead Wild Shape also grants you resistance to necrotic damage. Starting at 10th level, you also gain immunity to the poisoned condition while your Undead Wild Shape is active. Starting at 14th level, you additionally gain immunity to necrotic and poison damage when your Undead Wild Shape is active.</p>
+		</description>
+		<sheet>
+			<description>When you use your Wild Shape feature, you can cause the beast form to take on an undead appearance. For example, your beast form might have rotting flesh like a zombie, translucent flesh like a ghost, or have no flesh at all like a skeleton. When you activate your Wild Shape in this way, you take on some of the traits of the undead and gain resistance to poison damage.
+
+Starting at 6th level, your Undead Wild Shape also grants you resistance to necrotic damage. Starting at 10th level, you also gain immunity to the poisoned condition while your Undead Wild Shape is active. Starting at 14th level, you additionally gain immunity to necrotic and poison damage when your Undead Wild Shape is active.</description>
+		</sheet>
+	</element>
+	<element name="Circle Spells" type="Archetype Feature" source="Aeondromach" id="ARCHETYPE_FEATURE_CIRCLE_DEATH_CIRCLE_SPELLS">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_CIRCLE_DEATH_CIRCLE_SPELLS</requirements>
+		<h5>Circle of Rot Spells</h5>
+		<description>
+			<table>
+				<thead>
+					<tr>
+						<td>Druid Level</td>
+						<td>Spells</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Ray of Enfeeblement, Gentle Repose</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Animate Dead, Speak with Dead</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>Blight, Death Ward</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Danse Macabre, Raise Dead</em>
+					</td>
+				</tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_GENTLE_REPOSE" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ANIMATE_DEAD" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_BLIGHT" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DEATH_WARD" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DANSE_MACABRE" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_RAISE_DEAD" level="9" spellcasting="Druid" prepared="true" />
+		</rules>
+	</element>
+	<element name="Summon Undead Beasts" type="Archetype Feature" source="Aeondromach" id="ARCHETYPE_FEATURE_CIRCLE_DEATH_SUMMON_UNDEAD">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_CIRCLE_DEATH_SUMMON_UNDEAD</requirements>
+		<description>
+			<p>Starting at 6th level, you can use your action to expend your life energy and conjure forth undead beasts, which appear in open spaces of your choice within 30 feet of you. The undead beasts remain until they are brought to 0 hit points, until you use this ability again, or until you finish a long rest.</p>
+			<table>
+				<thead>
+					<tr>
+						<td>Choose one of the following options to conjure when you activate this feature:</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>
+						<em>One beast of CR 1</em>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<em>Two beasts of CR ½</em>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<em>Four beasts of CR ¼</em>
+					</td>
+				</tr>
+			</table>
+			<p>All the beasts you conjure are modified in the following ways: they have the undead creature type and are immune to poison damage and the poisoned condition. The undead beasts you conjure are tied to your life force, and are immune to being turned.</p>
+			<table>
+				<thead>
+					<tr>
+						<td>All the creatures you summon per use of this ability must be of the same undead appearance, and gain a special ability based on whether you choose to have them appear as skeletons, zombies, or ghosts:</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>
+						<em>Skeleton beasts can be reformed at full hit points after being reduced to 0 hit points. Expend your action and reduce your maximum hit points by 1 per Hit Die of the destroyed skeleton beast(s) you want to reform. You can reform any number of skeleton beasts with a single action, but they must all be within 30 feet of you.</em>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<em>Zombie beasts can detach a limb or body part and fling it at a target. They gain a ranged weapon attack that deals the same amount damage as their first melee weapon attack (although the type changes to bludgeoning) and uses the same attack roll bonus. This attack can target a creature within 30 feet of the zombie beast, and deals 1d6 necrotic damage to the zombie beast each time it is used.</em>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<em>Ghost beasts gain the incorporeal movement feature. They can move through other creatures and objects as if they were difficult terrain. They take 1d10 force damage if they end their turn inside an object.</em>
+					</td>
+				</tr>
+				<p>The summoned creatures are friendly to you and your companions. The summoned creatures share your initiative and act after your turn. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.
+
+Each time you use this feature, your hit point maximum is decreased by 2d6. Any reduction to your maximum hit points from this feature applies to your normal form’s hit points and not those gained from Wild Shape or Undead Wild Shape. Any reduction to your maximum hit points from this feature lasts until you finish a long rest.
+
+Starting at 10th level, you can double the amount of beasts you summon with this feature, or summon one beast of CR 2, but your hit point maximum decreases by 4d6.
+
+Starting at 14th level, you can quadruple the amount of beasts you summon with this feature, or summon two beasts of CR 2, but your hit point maximum decreases by 6d6.</p>
+			</table>
+		</description>
+		<sheet>
+			<description>Starting at 6th level, you can use your action to expend your life energy and conjure forth undead beasts, which appear in open spaces of your choice within 30 feet of you. The undead beasts remain until they are brought to 0 hit points, until you use this ability again, or until you finish a long rest.</description>
+		</sheet>
+	</element>
+	<element name="Ritual of Rot" type="Archetype Feature" source="Aeondromach" id="ARCHETYPE_FEATURE_CIRCLE_DEATH_RITUAL_OF_ROT">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_CIRCLE_DEATH_RITUAL_OF_ROT</requirements>
+		<description>
+			<p>When you reach 10th level, you can partake in the ritual of rot without the aid of any fellow druids of rot. It takes one hour as usual.
+			
+			AS well, you cannot be charmed or frightened by undead, and have advantage on death saving throws. Upon death you may choose to rise as an undead, if you are undead upon death, this feature doesn't work.</p>
+		</description>
+		<sheet>
+			<description>you cannot be charmed or frightened by undead, and have advantage on death saving throws. Upon death you may choose to rise as an undead, if you are undead upon death, this feature doesn't work.</description>
+		</sheet>
+	</element>
+	<element name="Cycle of Life and Death" type="Archetype Feature" source="Aeondromach" id="ARCHETYPE_FEATURE_CIRCLE_DEATH_CYCLE_OF_LIFE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_CIRCLE_DEATH_CYCLE_OF_LIFE</requirements>
+		<description>
+			<p>When you reach 14th level, You have proven yourself a true druid of Rot, you see death not as the end, but as a necessary stage of life, you see life as a symphony, death as art, and undeath as a masterpiece. When you have any raised undead from the ritual of rot, within 1000ft of you at your time of death, they will use their life force to allow you to rise again at 1hp. this also permanently causes you to lose 1 maximum hp, if maximum hp goes to 0, you cannot be raised ever again. Additionally, you emanate an aura around you, allowing you full control of the death saving throws of creatures around you.</p>
+			<p class="indent">The creature is aware of this effect before it makes its attack against you.</p>
+		</description>
+		<sheet>
+			<descr>When a beast or plant creature attacks you, that creature must make a Wisdom saving throw. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours. The creature is aware of this effect before it makes its attack against you.</descr>
+		</sheet>
+	</element>
+</elements>
