@@ -2,7 +2,7 @@
 <elements>
 	<info>
 	<update version="1.0.31">
-		<file name="TimeDomain.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/main/Aeondromach/Amireath/Subclasses/TimeDomain.xml"/>	
+		<file name="TimeDomain.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/Aeondromach/Amireath/Subclasses/TimeDomain.xml"/>	
 	</update>
 		<name>Time Domain</name>
 		<description>Gods of Time tend to be concerned with natural order and preventing excessive meddling in time, even allowing their followers to manipulate time in their service.</description>
