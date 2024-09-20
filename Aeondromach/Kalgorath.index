@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Magnus</name>
+		<description>The content for the Kalgorath Campaign.</description>
+		<update version="1.0">
+			<file name="Kalgorath.index" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Kalgorath.index"/>
+		</update>
+	</info>
+	<files>
+		<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/items.xml"/>
+	</files>
+</index>

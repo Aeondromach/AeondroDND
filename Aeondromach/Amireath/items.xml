@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Weapons</name>
-		<update version="0.0.16">
-			<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/items.xml" />
+		<name>Items</name>
+		<update version="0.0.17">
+			<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Amireath/items.xml" />
 		</update>
 	</info>
-	
-	<!-- simple -->
-	<element name="Recurve Bow" type="Weapon" source="Aeondromach" id="ID_WOTC_PHB_WEAPON_RECURVE_BOW">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_Piercing, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
-		<description>
-			<p></p>
-		</description>
-		<setters>
-			<set name="category">Weapons</set>
-			<set name="cost" currency="gp">25</set>
-			<set name="weight" lb="2">2 lb.</set>
-			<set name="slot">twohand</set>
-            <set name="range">80/320</set>
-			<set name="damage" type="Piercing">1d6</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RECURVE</set>
-		</setters>
-	</element>
 
     <element name="Hama Yumi" type="Magic Item" source="Aeondromach" id="ID_MAGIC_ITEM_HAMA_YUMI">
 		<description>
@@ -91,29 +74,6 @@
 			<stat name="wisdom:max" value="2" />
 		</rules>
 	</element>
-
-		<element name="Anterius Potion" type="Magic Item" source="Mangus" id="ID_POTIONS_">
-		<description>
-			<p>The Anterius Potion is a very rare elixir of rare potency, crafted from ten nearly unattainable ingredients, each harvested from distant corners of the world. Its creation is shrouded in secrecy, known only to the most skilled alchemists, and even they whisper of the great difficulty in obtaining its components—be it the heart of a celestial flower that blooms once every century, or the tears of a forgotten deity locked in ancient stone.</p>
-
-<p>The potion itself is a translucent black liquid, with a shining pink epicenter, remnant that of a galaxy, with specks of legendary ingredients, reminding that of home among the heavens.</p>
-
-<p>The Anterius Potion is most famous for its unique purpose: to suppress the effects of the infamous Nephalem's Rot, a disease capable of corrupting even the purest of celestial beings. While the potion cannot cure the curse, it serves as a powerful medicine, halting the spread of the ailment and preventing it from claiming the life of the infected angel. However, the potion’s effects are temporary, meaning the afflicted must seek continual doses—each more difficult to obtain than the last—to stave off the curse’s deadly embrace.</p>
-
-<p>Its rarity and life-saving power make the Anterius Potion one of the most sought-after and coveted substances in existence, often the subject of wars, bargains, and very rare quests.</p>
-
-<p>You also regain 1hp upon consumption.</p>
-		</description>
-		<setters>
-			<set name="category">Potions</set>
-			<set name="weight" lb="0.5">½ lb.</set>
-			<set name="cost" currency="gp">3</set>
-			<set name="type">Potion</set>
-			<set name="rarity">Very Rare</set>
-			<set name="stackable">true</set>
-		</setters>
-	</element>
-
 	<element name="Aegis" type="Magic Item" source="Aeondromach" id="ID_MAGIC_ITEM_SHIELD_AEGIS">
 		<description>
 			<p>Created by the best blacksmiths in the Norman Empire, Aegis was created for a legendary fighter to assist him in defeating an evil Warlock. Aegis has an innate +2.</p>

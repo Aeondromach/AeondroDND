@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.01" encoding="utf-8"?>
 <index>
 	<info>
 		<name>Aeondromach</name>
 		<description>The content for the Amireath Campaign.</description>
-		<update version="1.0">
+		<update version="1.01">
 			<file name="Amireath.index" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Amireath.index"/>
 		</update>
 	</info>
 	<files>
-		<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/items.xml"/>
-		<file name="feats.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/feats.xml"/>
-		<file name="TimeDomain.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Subclasses/TimeDomain.xml"/>
-		<file name="FirianElf.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Races/FirianElf.xml"/>
-		<file name="Kitsune.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Races/Kitsune.xml"/>
+		<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Amireath/items.xml"/>
+		<file name="feats.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Amireath/feats.xml"/>
+		<file name="TimeDomain.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Amireath/Subclasses/TimeDomain.xml"/>
+		<file name="FirianElf.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Amireath/Races/FirianElf.xml"/>
+		<file name="Kitsune.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Amireath/Races/Kitsune.xml"/>
 	</files>
 </index>

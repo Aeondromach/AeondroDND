@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
-			<file name="CircleOfDeath.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Subclasses/CircleOfDeath.xml" />
+		<update version="0.0.2">
+			<file name="CircleOfDeath.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Amireath/Subclasses/CircleOfDeath.xml" />
 		</update>
 	</info>
 

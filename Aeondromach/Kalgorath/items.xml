@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Items</name>
+		<update version="0.0.1">
+			<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Kalgorath/items.xml" />
+		</update>
+	</info>
+
+    <element name="Anterius Potion" type="Magic Item" source="Magnus" id="ID_POTIONS_">
+            <description>
+                <p>The Anterius Potion is a very rare elixir of rare potency, crafted from ten nearly unattainable ingredients, each harvested from distant corners of the world. Its creation is shrouded in secrecy, known only to the most skilled alchemists, and even they whisper of the great difficulty in obtaining its components—be it the heart of a celestial flower that blooms once every century, or the tears of a forgotten deity locked in ancient stone.</p>
+
+    <p>The potion itself is a translucent black liquid, with a shining pink epicenter, remnant that of a galaxy, with specks of legendary ingredients, reminding that of home among the heavens.</p>
+
+    <p>The Anterius Potion is most famous for its unique purpose: to suppress the effects of the infamous Nephalem's Rot, a disease capable of corrupting even the purest of celestial beings. While the potion cannot cure the curse, it serves as a powerful medicine, halting the spread of the ailment and preventing it from claiming the life of the infected angel. However, the potion’s effects are temporary, meaning the afflicted must seek continual doses—each more difficult to obtain than the last—to stave off the curse’s deadly embrace.</p>
+
+    <p>Its rarity and life-saving power make the Anterius Potion one of the most sought-after and coveted substances in existence, often the subject of wars, bargains, and very rare quests.</p>
+
+    <p>You also regain 1hp upon consumption.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="cost" currency="gp">3</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Very Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+</elements>

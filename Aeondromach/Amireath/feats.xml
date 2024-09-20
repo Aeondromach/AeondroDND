@@ -2,8 +2,8 @@
 <elements>
 	<info>
 		<name>Feats</name>
-		<update version="0.0.4">
-			<file name="feats.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/feats.xml" />
+		<update version="0.0.5">
+			<file name="feats.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Amireath/feats.xml" />
 		</update>
 	</info>
 
