@@ -3,11 +3,12 @@
 	<info>
 		<name>Aeondromach</name>
 		<description>The content for Aeondromach's Campaigns.</description>
-		<update version="1.1">
-			<file name="Aeondromach.index" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Aeondromach.index"/>
+		<update version="1.11">
+			<file name="Aeondromach.index" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/refs/heads/main/Aeondromach.index"/>
 		</update>
 	</info>
 	<files>
-		<file name="Amireath.index" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Amireath.index"/>
+		<file name="Amireath.index" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/refs/heads/main/Aeondromach/Amireath.index"/>
+		<file name="Kalgorath.index" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/refs/heads/main/Aeondromach/Kalgorath.index">
 	</files>
 </index>

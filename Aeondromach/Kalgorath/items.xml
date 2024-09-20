@@ -2,8 +2,8 @@
 <elements>
 	<info>
 		<name>Items</name>
-		<update version="0.0.1">
-			<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/AeondroDND/Aeondromach/Kalgorath/items.xml" />
+		<update version="0.0.2">
+			<file name="items.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/refs/heads/main/Aeondromach/Kalgorath/items.xml" />
 		</update>
 	</info>
 
