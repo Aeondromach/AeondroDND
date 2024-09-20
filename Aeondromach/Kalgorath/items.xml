@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Items</name>
-		<update version="0.0.32">
+		<update version="0.0.33">
 			<file name="items.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/Aeondromach/Kalgorath/items.xml" />
 		</update>
 	</info>
@@ -29,7 +29,7 @@
 		</setters>
 	</element>
 
-	<element name="Ætorii Amulet (Faded)" type="Magic Item" source="Aeondromach" id="ID_MAGIC_ITEM_AETORII_AMULET_FADED">
+	<element name="Ætorii Amulet (Faded)" type="Magic Item" source="Magnus" id="ID_MAGIC_ITEM_AETORII_AMULET_FADED">
 		<description>
 			<p>A small silver amulet, circular in shape, with a diamond embezzeled into the center. Once of legendary power, capable of stopping even the most destructive of curses, now the amulet sits, Faded of it's unique power.</p>
 		</description>
