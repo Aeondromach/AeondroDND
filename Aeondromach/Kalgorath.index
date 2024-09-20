@@ -4,7 +4,7 @@
 		<name>Magnus</name>
 		<description>The content for the Kalgorath Campaign.</description>
 		<update version="1.0.21">
-			<file name="Kalgorath.index" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/main/Aeondromach/Kalgorath.index"/>
+			<file name="Kalgorath.index" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/Aeondromach/Kalgorath.index"/>
 		</update>
 	</info>
 	<files>
