@@ -3,11 +3,11 @@
 	<info>
 		<name>Magnus</name>
 		<description>The content for the Kalgorath Campaign.</description>
-		<update version="1.0.2">
-			<file name="Kalgorath.index" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/main/Aeondromach/Kalgorath.index"/>
+		<update version="1.0.21">
+			<file name="Kalgorath.index" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/main/Aeondromach/Kalgorath.index"/>
 		</update>
 	</info>
 	<files>
-		<file name="items.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/main/Aeondromach/Kalgorath/items.xml">
+		<file name="items.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/main/Aeondromach/Kalgorath/items.xml">
 	</files>
 </index>
