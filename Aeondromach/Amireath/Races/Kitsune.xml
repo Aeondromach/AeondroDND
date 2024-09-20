@@ -2,8 +2,8 @@
 <elements>
 	<info>
 		<name>Kitsune</name>
-		<update version="0.22">
-			<file name="Kitsune.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/refs/heads/main/Aeondromach/Amireath/Races/Kitsune.xml" />
+		<update version="0.2.3">
+			<file name="Kitsune.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/main/Aeondromach/Amireath/Races/Kitsune.xml" />
 		</update>
 	</info>
 

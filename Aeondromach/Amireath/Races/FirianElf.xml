@@ -2,8 +2,8 @@
 <elements>
 	<info>
 		<name>Firian Elf</name>
-		<update version="0.0.6">
-			<file name="FirianElf.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/refs/heads/main/Aeondromach/Amireath/Races/FirianElf.xml" />
+		<update version="0.0.7">
+			<file name="FirianElf.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/main/Aeondromach/Amireath/Races/FirianElf.xml" />
 		</update>
 	</info>
 

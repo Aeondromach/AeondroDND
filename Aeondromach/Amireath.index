@@ -3,19 +3,19 @@
 	<info>
 		<name>Aeondromach</name>
 		<description>The content for the Amireath Campaign.</description>
-		<update version="1.02">
-			<file name="Amireath.index" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/refs/heads/main/Aeondromach/Amireath.index"/>
+		<update version="1.0.3">
+			<file name="Amireath.index" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/main/Aeondromach/Amireath.index"/>
 		</update>
 	</info>
 	<files>
-		<file name="items.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/refs/heads/main/Aeondromach/Amireath/items.xml"/>
+		<file name="items.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/main/Aeondromach/Amireath/items.xml"/>
 
-		<file name="feats.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/refs/heads/main/Aeondromach/Amireath/feats.xml"/>
+		<file name="feats.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/main/Aeondromach/Amireath/feats.xml"/>
 
-		<file name="TimeDomain.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/refs/heads/main/Aeondromach/Amireath/Subclasses/TimeDomain.xml"/>
-		<file name="CircleOfDeath.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/refs/heads/main/Aeondromach/Amireath/Subclasses/CircleOfDeath.xml">
+		<file name="TimeDomain.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/main/Aeondromach/Amireath/Subclasses/TimeDomain.xml"/>
+		<file name="CircleOfDeath.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/main/Aeondromach/Amireath/Subclasses/CircleOfDeath.xml">
 
-		<file name="FirianElf.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/refs/heads/main/Aeondromach/Amireath/Races/FirianElf.xml"/>
-		<file name="Kitsune.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/refs/heads/main/Aeondromach/Amireath/Races/Kitsune.xml"/>
+		<file name="FirianElf.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/main/Aeondromach/Amireath/Races/FirianElf.xml"/>
+		<file name="Kitsune.xml" url="https://raw.githubusercontent.com/Aeondromach/AeondroDND/main/Aeondromach/Amireath/Races/Kitsune.xml"/>
 	</files>
 </index>
