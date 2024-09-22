@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Items</name>
-		<update version="0.0.33">
+		<update version="0.0.34">
 			<file name="items.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/Aeondromach/Kalgorath/items.xml" />
 		</update>
 	</info>
@@ -40,6 +40,22 @@
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Common</set>
 			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+	<element name="Infernal Stone" type="Magic Item" source="Magnus" id="ID_MAGIC_ITEM_INFERNAL_STONE">
+		<description>
+			<p>A strange rough black stone found in The Ward, inscribed with a glowing green rune, in the shape of a singular vertical scratch mark, 4 diagonal smaller scratches going down the first mark, all encompassed by a ovular mark. After some work, discovered to be of Infernal origins. Stone appears to forcefully change the user's mind, corrupting it.</p>
+
+			<p>Found off of a carriage driver, after it corrupted him, claimed it was supposed to protect him from death.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">???</set>
+			<set name="attunement">false</set>
 		</setters>
 	</element>
 </elements>
