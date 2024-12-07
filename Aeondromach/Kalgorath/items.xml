@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Items</name>
-		<update version="0.0.35">
+		<update version="0.0.36">
 			<file name="items.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/Aeondromach/Kalgorath/items.xml" />
 		</update>
 	</info>
@@ -11,13 +11,13 @@
             <description>
                 <p>The Anterius Potion is a very rare elixir of rare potency, crafted from ten nearly unattainable ingredients, each harvested from distant corners of the world. Its creation is shrouded in secrecy, known only to the most skilled alchemists, and even they whisper of the great difficulty in obtaining its components—be it the heart of a celestial flower that blooms once every century, or the tears of a forgotten deity locked in ancient stone.</p>
 
-    <p>The potion itself is a translucent black liquid, with a shining pink epicenter, remnant that of a galaxy, with specks of legendary ingredients, reminding that of home among the heavens.</p>
+				<p>The potion itself is a translucent black liquid, with a shining pink epicenter, remnant that of a galaxy, with specks of legendary ingredients, reminding that of home among the heavens.</p>
 
-    <p>The Anterius Potion is most famous for its unique purpose: to suppress the effects of the infamous Nephalem's Rot, a disease capable of corrupting even the purest of celestial beings. While the potion cannot cure the curse, it serves as a powerful medicine, halting the spread of the ailment and preventing it from claiming the life of the infected angel. However, the potion’s effects are temporary, meaning the afflicted must seek continual doses—each more difficult to obtain than the last—to stave off the curse’s deadly embrace.</p>
+				<p>The Anterius Potion is most famous for its unique purpose: to suppress the effects of the infamous Nephalem's Rot, a disease capable of corrupting even the purest of celestial beings. While the potion cannot cure the curse, it serves as a powerful medicine, halting the spread of the ailment and preventing it from claiming the life of the infected angel. However, the potion’s effects are temporary, meaning the afflicted must seek continual doses—each more difficult to obtain than the last—to stave off the curse’s deadly embrace.</p>
 
-    <p>Its rarity and life-saving power make the Anterius Potion one of the most sought-after and coveted substances in existence, often the subject of wars, bargains, and very rare quests.</p>
+				<p>Its rarity and life-saving power make the Anterius Potion one of the most sought-after and coveted substances in existence, often the subject of wars, bargains, and very rare quests.</p>
 
-    <p>You also regain 1hp upon consumption.</p>
+				<p>You also regain 1hp upon consumption.</p>
 		</description>
 		<setters>
 			<set name="category">Potions</set>
@@ -38,9 +38,29 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
-			<set name="rarity">Common</set>
+			<set name="rarity">Uncommon</set>
 			<set name="attunement">true</set>
 		</setters>
+	</element>
+
+	<element name="Ætorii Amulet (Waned)" type="Magic Item" source="Magnus" id="ID_MAGIC_ITEM_AETORII_AMULET_WANED">
+		<description>
+			<p>A small silver amulet, circular in shape, with a diamond embezzeled into the center. Once of legendary power, capable of stopping even the most destructive of curses, now the amulet sits, Waned of it's unique power.</p>
+
+			<p>Once per long rest, the wearer may cast shield as a reaction, as the amulet makes one last ditch effort to protect the wearer from immediate death.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="1" />
+			<stat name="wisdom:max" value="1" />
+		</rules>
 	</element>
 
 	<element name="Infernal Stone" type="Magic Item" source="Magnus" id="ID_MAGIC_ITEM_INFERNAL_STONE">
@@ -83,6 +103,34 @@
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">???</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+
+	<element name="Eternal Magma" type="Magic Item" source="Magnus" id="ID_MAGIC_ITEM_ETERNAL_MAGMA">
+		<description>
+			<p>Eternal magma taken straight from the depths of the ocean, may be used in crafting the Anterius Potion</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">???</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+
+	<element name="The Truth Candle" type="Magic Item" source="Magnus" id="ID_MAGIC_ITEM_TRUTH_CANDLE">
+		<description>
+			<p>The MOST ANNOYING ASS candle to ever exist, always spits out the truth.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Unique</set>
 			<set name="attunement">false</set>
 		</setters>
 	</element>
