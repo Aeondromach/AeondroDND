@@ -3,11 +3,13 @@
 	<info>
 		<name>Magnus</name>
 		<description>The content for the Kalgorath Campaign.</description>
-		<update version="1.0.21">
+		<update version="1.0.22">
 			<file name="Kalgorath.index" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/Aeondromach/Kalgorath.index"/>
 		</update>
 	</info>
 	<files>
 		<file name="items.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/Aeondromach/Kalgorath/items.xml"/>
+
+		<file name="Succubus.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/Aeondromach/Kalgorath/Races/Succubus.xml" />
 	</files>
 </index>
