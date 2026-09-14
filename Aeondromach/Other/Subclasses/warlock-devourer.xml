@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Devourer Patron</name>
+		<description>The Devourer Pact from homebrew 2026</description>
+		<author>Aeondromach</author>
+		<update version="0.0.1">
+			<file name="warlock-devourer.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/Aeondromach/Other/Subclasses/warlock-devourer.xml" />
+		</update>
+	</info>
+
+	<element name="Devourer" type="Archetype" source="Aeondromach" id="ID_WOTC_PHB24_ARCHETYPE_WARLOCK_DEVOURER_PATRON">
+		<supports>Warlock Subclass</supports>
+		<description>
+			<p class="flavor">Unearth Forbidden Lore of Ineffable Beings</p>
+			<p>WWhen you choose this subclass, you bind yourself to a fiendishly hungry patron, greedily devouring the power of their enemies and warlocks alike into their great elemental maws. Patrons of this subclass tend to be dragons, great genasi, and elementals. Their motives are typically quite clear: they are power hungry, and would rather grant a small portion of power to you, rather than acclaim their power themself. When defeating enemies, you may steal their magic and attributes to claim unto yourself in battle.</p>
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_GREAT_MAW" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_DEVOURER_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_ELEMENTAL_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_ATTUNED_REMEMBRANCE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_OVERINDULGENCE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_POWER_THIEF" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_AMALGAMATED_POWER" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_GREAT_MAW" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_DEVOURER_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_ELEMENTAL_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_ATTUNED_REMEMBRANCE" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_OVERINDULGENCE" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_POWER_THIEF" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_AMALGAMATED_POWER" level="14" />
+		</rules>
+	</element>
+
+	<element name="Level 3: Awakened Mind" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_GREAT_MAW">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_DEVOURER_PATRON_GREAT_MAW</requirements>
+		<description>
+			<p>When slaying an enemy of great significance, you may choose to absorb fragments of their magic and/or physical abilities. Starting at 3rd level, in addition to Devourer Spells, you may capture spells from enemies, you may capture a number of spells equal to your wisdom modifier, but may not capture spells at a higher level than you can cast. Spells learned this way may be discarded over long rest.</p>
+
+			<p>Additionally, you can devour physical attributes, these may be custom (work with your DM), though may also possibly be chosen from a standard list below. These physical attributes cost an attunement slot to utilize, and may be removed over a long rest. If obtaining a new manifestation and all attunement slots are full, you may discard one to place the new manifestation. As a part of picking this subclass, pick one physical attribute to manifest.</p>
+			<ul>
+				<li><strong>Thick Skin</strong> When not wearing armor, you may add your strength score onto your AC as well as your dexterity score.</li>
+				<li><strong>Elemental Breath</strong> Once per short rest, as a bonus action, you may erupt elemental breath in a 10ft cone, dealing 3d6 damage to enemies on a failed dexterity saving throw, or half as much on a successful saving throw. This ability increases in damage by 1d6 at level 6, 10, 14, and 17.</li>
+				<li><strong>Increased Power</strong> The devoured foe had unnaturally good power in a certain area, while manifested, this ability grants +1 to one of the 6 main stats. This manifestation may stack.</li>
+				<li><strong>Spiky Skin</strong> When enemies successfully make a melee attack against you, they take 1d4 puncture damage.</li>
+				<li><strong>Resiliant Mind</strong> While this ability is manifested, concentration saving throws have advantage.</li>
+				<li><strong>Elemental Wings</strong> Sprouting short lived wings, you may make a straight dash in any direction at a flying speed equal to your movement speed as an action, dealing 2d8 attuned elemental damage on a failed dexterity saving throw to targets in the way as an action. This ability may be used once per short rest.</li>
+				<li><strong>Vampyric Casting</strong> Once per short rest, as a free action when casting a spell, you may heal a fourth of the total damage dealt by the spell.</li>
+				<li><strong>Martial Muscle Memory</strong> (Level 5+ required) embracing a martial foe's muscle memory, gain extra attack for melee attacks, this manifestation can stack once more at level 11+.</li>
+				<li><strong>Tail</strong> Mimicking a fallen foe's tail, this tail may be weaponized to make a melee attack as a bonus action, dealing 1d6 Bludgeoning damage. This attack deals 1d6 extra damage at level 5, 10, and 15.</li>
+				<li><strong>Maw</strong> Mimicking a fallen foe's deadly maw, this set of fangs may be weaponized to make a melee attack as a bonus action, dealing 1d6 Piercing damage. This attack deals 1d6 extra damage at level 5, 10, and 15.</li>
+				<li><strong>Claws</strong> Mimicking a fallen foe's claws, these claws may be weaponized to make a melee attack as a bonus action, dealing 1d6 Slashing damage. This attack deals 1d6 extra damage at level 5, 10, and 15.</li>
+				<li><strong>Second Heart</strong> Stealing a foe's ability of a second heart, once per short rest, when you reach 0 hitpoints, you instead go to 1 hitpoint.</li>
+				<li><strong>Feline Legs</strong> While active, gain +10 movement speed.</li>
+				<li><strong>Mer Legs</strong> While active gain a swim speed equal to your movement speed.</li>
+				<li><strong>Arachnid Legs</strong> While active, gain a climb speed equal to your movement speed.</li>
+			</ul>
+	</element>
+
+	<element name="Level 3: Devourer Spells" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_DEVOURER_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_DEVOURER_PATRON_DEVOURER_SPELLS</requirements>
+		<description>
+			<p>The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Devourer Spells table, you thereafter always have the listed spells prepared.</p>
+			<h5>Devourer Spells</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-30">Warlock Level</td><td class="left">Spells</td></tr>
+				</thead>
+				<tr><td>3</td><td class="left"><em>Flaming Hands, Hellish Rebuke</em></td></tr>
+				<tr><td>5</td><td class="left"><em>Elemental Weapon, Call Lightning</em></td></tr>
+				<tr><td>7</td><td class="left"><em>Conjure Minor Elementals, Fire Shield</em></td></tr>
+				<tr><td>9</td><td class="left"><em>Conjure Elemental</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FLAMING_HANDS" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HELLISH_REBUKE" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ELEMENTAL_WEAPON" level="5" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CALL_LIGHTNING" level="5" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CONJURE_MINOR_ELEMENTALS" level="7" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIRE_SHIELD" level="7" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CONJURE_ELEMENTAL" level="9" spellcasting="Warlock" />
+		</rules>
+	</element>
+
+	<element name="Level 3: Devourer Spells" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_ELEMENTAL_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_DEVOURER_PATRON_ELEMENTAL_SPELLS</requirements>
+		<description>
+			<p>When this subclass is chosen, choose an attuned elemental damage type (Lightning, Cold, Fire, Poison, Acid), this is permanent. When you cast a Warlock spell that deals damage, you can change its damage type to your patron's attuned elemental damage. In addition, when you cast a Warlock spell that is an Evocation, you can do so without Verbal components.</p>
+		</description>
+		<sheet alt="Devourer Spells" >
+			<description>When this subclass is chosen, choose an attuned elemental damage type (Lightning, Cold, Fire, Poison, Acid), this is permanent. When you cast a Warlock spell that deals damage, you can change its damage type to your patron's attuned elemental damage. In addition, when you cast a Warlock spell that is an Evocation, you can do so without Verbal components.</description>
+		</sheet>
+	</element>
+	
+	<element name="Level 6: Attuned Remembrance" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_ATTUNED_REMEMBRANCE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_DEVOURER_PATRON_ATTUNED_REMEMBRANCE</requirements>
+		<description>
+			<p>When removing/discarding manifestations, you may hold them in remembrance. Remembered manifestations may be reapplied and swapped over a long rest, though you only may remember up to your wisdom modifier of manifestations. In addition, while at least 2 manifestations are attuned to you, you have resistance to your attuned elemental damage type.</p>
+		</description>
+		<sheet alt="Attuned Remembrance">
+			<description>When removing/discarding manifestations, you may hold them in remembrance. Remembered manifestations may be reapplied and swapped over a long rest, though you only may remember up to your wisdom modifier of manifestations. In addition, while at least 2 manifestations are attuned to you, you have resistance to your attuned elemental damage type.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" name="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+		</rules>
+	</element>
+
+	<element name="Level 10: Overindulgence" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_OVERINDULGENCE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_DEVOURER_PATRON_OVERINDULGENCE</requirements>
+		<description>
+			<p>Your ever hungry drive for power has gotten you to the point of treading between the point of no return and your humanity. You gain 2 new Attunement slots that may only be outfitted with manifestations. However, whenever an attunement slot is taken up, your maximum health is reduced by 1 per character level, and your AC is reduced by 1. Should both slots be taken up, this effect stacks. Additionally, you may use warlock spell slots to utilize physical manifestations that may only be used once per long/short rest.</p>
+		</description>
+		<sheet alt="Overindulgence" >
+			<description>You gain 2 new Attunement slots that may only be outfitted with manifestations. However, whenever an attunement slot is taken up, your maximum health is reduced by 1 per character level, and your AC is reduced by 1. Should both slots be taken up, this effect stacks. Additionally, you may use warlock spell slots to utilize physical manifestations that may only be used once per long/short rest.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_FALSE_LIFE" spellcasting="Warlock" />
+		</rules>
+	</element>
+
+	<element name="Level 10: Power Thief" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_POWER_THIEF">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_DEVOURER_PATRON_POWER_THIEF</requirements>
+		<description>
+			<p>You may cast counter spell once per short rest as a 3rd level spell for free, though if used on a spell matching your attuned elemental damage, it counts as a 4th level spell. If successful in countering a spell, you may attempt to cast the countered spell without utilizing a spell slot at the same level on your next turn or reaction, depending on the spell's action requirements. When casting a spell this way, you must make a Charisma check against the spell owner's Spell Save DC, only being able to cast the spell on a success. After that point, regardless if the spell has been used, the spell will no longer be able to be casted this way. This ability resets on a short rest.</p>
+		</description>
+		<sheet alt="Power Thief">
+			<description>You may cast counter spell once per short rest as a 3rd level spell for free, though if used on a spell matching your attuned elemental damage, it counts as a 4th level spell. If successful in countering a spell, you may attempt to cast the countered spell without utilizing a spell slot at the same level on your next turn or reaction, depending on the spell's action requirements. When casting a spell this way, you must make a Charisma check against the spell owner's Spell Save DC, only being able to cast the spell on a success. After that point, regardless if the spell has been used, the spell will no longer be able to be casted this way. This ability resets on a short rest.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_COUNTER_SPELL" spellcasting="Warlock" />
+		</rules>
+	</element>
+
+	<element name="Level 14: Amalgamated Power" type="Archetype Feature" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_DEVOURER_PATRON_AMALGAMATED_POWER">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_DEVOURER_PATRON_AMALGAMATED_POWER</requirements>
+		<description>
+			<p>You have reached a penultimate point with your ability to steal magic and power from fallen foes. when overindulging, receive a +1 bonus to spell save dc, attack roles and spell attack modifier if one extra attunement slot is taken up, if both are taken up, receive a +2 bonus instead.</p>
+		</description>
+		<sheet alt="Amalgamated Power">
+			<description>When overindulging, receive a +1 bonus to spell save dc, attack roles and spell attack modifier if one extra attunement slot is taken up, if both are taken up, receive a +2 bonus instead.</description>
+		</sheet>
+		<rules>
+			<stat name="Amalgamated Power:thp" value="level:warlock" bonus="base" />
+			<stat name="Amalgamated Power:thp" value="charisma:modifier" bonus="ability" />
+		</rules>
+	</element>
+
+	<!--Feature Replacement Grants-->
+	<element name="Devourer Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_DEVOURER_PATRON_DEVOURER_SPELLS" />
+	<element name="Awakened Mind Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_DEVOURER_PATRON_GREAT_MAW" />
+	<element name="Psychic Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_DEVOURER_PATRON_ELEMENTAL_SPELLS" />
+	<element name="Attuned Remembrance Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_DEVOURER_PATRON_ATTUNED_REMEMBRANCE" />
+	<element name="Overindulgence Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_DEVOURER_PATRON_OVERINDULGENCE" />
+	<element name="Power Thief Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_DEVOURER_PATRON_POWER_THIEF" />
+	<element name="Amalgamated Power Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_DEVOURER_PATRON_AMALGAMATED_POWER" />
+
+</elements>

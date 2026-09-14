@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Items</name>
+		<update version="0.0.36">
+			<file name="items.xml" url="https://raw.githubusercontent.com/Aeondromach/aeondroDND/main/Aeondromach/Draveria/items.xml" />
+		</update>
+	</info>
+
+    <element name="Anterius Elixir" type="Magic Item" source="Draveria" id="ID_POTIONS_DRAVERIA_ANTERIUS_ELIXIR">
+		<description>
+			<p>According to Mother, The Anterius Elixir is an incredibly rare elixir of rare potency, crafted from 6 ingredients found most commonly, luckily for me, in the Under Hollow! Though, unluckily for me, they happen to be nowhere close to each other, and I don't even know most of the ingredients...</p>
+			<p>According to the Artificer's claims, There exist alchemists in this world skilled enough to possibly create this potion themselves... But it will take work to find out who. Since I only have 11 left as of writing this note, Urush has told a few of his best men and I that come sunrise tomorrow, we will venture out to search for more potions. He won't listen... come next year, I'd be surprised if the potions even work.</p>
+
+			<p>According to some books I've read on it years ago, the Anterius Elixir has actually been sought after by humans as well, which is odd to me. Do they know of some use that I don't? Is it merely just because the potion looks pretty? Or could it be something darker?</p>
+
+			<p>Consumption of an elixir such as this heals 1hp and suppresses the effects of Nephilim's Rot for a depleting duration of time.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="cost" currency="gp">3</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Very Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Ætorii Amulet (Faded)" type="Magic Item" source="Draveria" id="ID_MAGIC_ITEM_DRAVERIA_AETORII_AMULET_FADED">
+		<description>
+			<p>By all accounts, it looks like the Ætorii Amulet is a one-of-a-kind artifact! This is insane! I have never been so close to something so valuable, let alone told to keep it! This relic appears to have been created by some sort of union between the Pantheon and the Primordials, but that is only a hypothesis. Perhaps it was used as a weapon of sorts against Nyxoth.</p>
+
+			<p>I do not know what Mother did to obtain this necklace, and I will refrain from asking her. But what I do know, is that it was nowhere near easy to obtain. Most of this information will be speculation but... If these Anterius Exlixirs are the root of wars and violence... how much death could've been caused by this pendant, merely meant to protect?</p>
+
+			<p>It is very lucky for me that the life-saving pendant that I can *never* take off is super fashionable and barely even noticeable while worn! I've seen pictures of what the pendant looks like in stronger stages, but this stage right now is beautiful.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+	<element name="Ætorii Amulet (Waned)" type="Magic Item" source="Draveria" id="ID_MAGIC_ITEM_DRAVERIA_AETORII_AMULET_WANED">
+		<description>
+			<p>By all accounts, it looks like the Ætorii Amulet is a one-of-a-kind artifact! This is insane! I have never been so close to something so valuable, let alone told to keep it! This relic appears to have been created by some sort of union between the Pantheon and the Primordials, but that is only a hypothesis. Perhaps it was used as a weapon of sorts against Nyxoth.</p>
+
+			<p>I do not know what Mother did to obtain this necklace, and I will refrain from asking her. But what I do know, is that it was nowhere near easy to obtain. Most of this information will be speculation but... If these Anterius Exlixirs are the root of wars and violence... how much death could've been caused by this pendant, merely meant to protect?</p>
+
+			<p>It is very lucky for me that the life-saving pendant that I can *never* take off is super fashionable and barely even noticeable while worn! I've seen pictures of what the pendant looks like in stronger stages, but this stage right now is beautiful.</p>
+
+			<p>It seems like the Ætorii Amulet has absorbed the item's energy as expected, I can feel the protective magic wrapping around me like a warm embrace!</p>
+
+			<p>While wearing this amulet, you gain a +1 bonus to AC. Additionally, you gain the ability to reaction cast Shield once per Long Rest.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="1" />
+		</rules>
+	</element>
+</elements>
